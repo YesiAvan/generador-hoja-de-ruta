@@ -28,6 +28,3 @@ def generar_ruta():
     mensaje += f"\n🗺️ Ruta: {maps_url}\n\n¡Buen viaje! 🚛📲"
 
     return jsonify({"mensaje": mensaje, "link": maps_url})
-
-if __name__ == "__main__":
-    app.run()
